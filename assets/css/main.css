@@ -148,12 +148,12 @@ input::-moz-focus-inner {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #9bf1ff !important;
+			color: #17b0df !important;
 			text-decoration: none;
 		}
 
 		a:active {
-			color: #53e3fb !important;
+			color: #17b0df !important;
 		}
 
 	.links .active > a { color: #9bf1ff; }
@@ -1165,27 +1165,27 @@ input::-moz-focus-inner {
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #6fc3df;
+				background-color: #4f5557;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #8d82c4;
+				background-color: #242d58;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #ec8d81;
+				background-color: #596788;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #e7b788;
+				background-color: #806143;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
-				background-color: #8ea9e8;
+				background-color: #316470;
 			}
 
 			.tiles article:nth-child(6n):before {
-				background-color: #87c5a4;
+				background-color: #1a6862;
 			}
 
 		@media screen and (max-width: 1280px) {
@@ -1448,7 +1448,7 @@ input::-moz-focus-inner {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #2a2f4a;
+		background-color: #313138;
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
 		cursor: default;
 		font-weight: 600;
@@ -1487,11 +1487,11 @@ input::-moz-focus-inner {
 			}
 
 			#header .logo:hover strong {
-				background-color: #9bf1ff;
+				background-color: #17b0df;
 			}
 
 			#header .logo:active strong {
-				background-color: #53e3fb;
+				background-color: #17b0df;
 			}
 
 		#header nav {
@@ -1744,7 +1744,7 @@ input::-moz-focus-inner {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			background-color: #242943;
+			/*background-color: #242943;*/
 			content: '';
 			display: block;
 			height: 100%;
