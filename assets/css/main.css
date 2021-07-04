@@ -1245,7 +1245,7 @@ input::-moz-focus-inner {
 
 		.contact-method .icon {
 			left: 0;
-			position: absolute;
+			position:absolute;
 			top: 0;
 		}
 
@@ -1961,7 +1961,7 @@ input::-moz-focus-inner {
 	
 	.contact,
 	#contact {
-		border-bottom: solid 1px rgba(212, 212, 255, 0.1);
+		border-bottom: solid 1px rgb(239, 239, 241);
 		overflow-x: hidden;
 	}
 
@@ -1970,20 +1970,20 @@ input::-moz-focus-inner {
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
-			display: flex;
-			padding: 0 !important;
+			display:flex;  
+			padding: 10 !important;
 		}
 
 			.contact > .inner > :nth-child(2n - 1),
 			#contact > .inner > :nth-child(2n - 1) {
 				/*padding: 4em 3em 2em 0 ;*/
-				border-right: solid 1px rgba(212, 212, 255, 0.1);
+				border-right: solid 1px rgb(239, 239, 241);
 				width: 50%;
 			}
 
 			.contact > .inner > :nth-child(2n),
 			#contact > .inner > :nth-child(2n) {
-				padding-left: 3em;
+				padding-left: 3em; /* Contact Section e right margin er daane starting line. Aitar value barale right section aro daane chole jaabe*/
 				width: 40%;
 			}
 
@@ -2000,7 +2000,7 @@ input::-moz-focus-inner {
 
 					.contact > .inner > .split > *:before,
 					#contact > .inner > .split > *:before {
-						border-top: solid 1px rgba(212, 212, 255, 0.1);
+						border-top: solid 1px rgba(212, 212, 255, 0.1);/*1px*/
 						content: '';
 						display: block;
 						margin-left: -3em;
