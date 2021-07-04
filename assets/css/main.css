@@ -226,7 +226,7 @@ input::-moz-focus-inner {
 	hr {
 		border: 0;
 		border-bottom: solid 1px rgba(212, 212, 255, 0.1);
-		margin: 2em 0;
+		margin: 2em 0; /*2 silo*/
 	}
 
 		hr.major {
@@ -520,6 +520,8 @@ input::-moz-focus-inner {
 		text-decoration: none;
 		border-bottom: none;
 		position:sticky;
+		padding:5px;  /*Padding Siloi na Aita Duita Padding er modhe durrottto 5px kore rakhbe. Github e dite hobe.*/
+		padding-left:30px ;
 	}
 
 		.icon:before {
@@ -1963,6 +1965,7 @@ input::-moz-focus-inner {
 	#contact {
 		border-bottom: solid 1px rgb(239, 239, 241);
 		overflow-x: hidden;
+		/*border-top:solid 1px rgb(239, 239, 241);  Contact Tab e  aita dile upore daaag ashbe*/ 
 	}
 
 		.contact > .inner,
@@ -1971,14 +1974,15 @@ input::-moz-focus-inner {
 			display: -webkit-flex;
 			display: -ms-flex;
 			display:flex;  
-			padding: 10 !important;
+			padding: 0 !important;
 		}
 
 			.contact > .inner > :nth-child(2n - 1),
 			#contact > .inner > :nth-child(2n - 1) {
 				/*padding: 4em 3em 2em 0 ;*/
-				border-right: solid 1px rgb(239, 239, 241);
+				border-right: solid 1px rgb(241, 239, 239);  /* Contact tab e Right border line er colour*/
 				width: 50%;
+				height: 15cm;
 			}
 
 			.contact > .inner > :nth-child(2n),
@@ -2060,14 +2064,14 @@ input::-moz-focus-inner {
 	#footer .copyright {
 		font-size: 0.8em;
 		list-style: none;
-		padding-left: 0;
+		padding-left: 10; /*0 silo  aita GIT E thik kora lagbe*/
 	}
 
 		#footer .copyright li {
 			border-left: solid 1px rgba(212, 212, 255, 0.1);
 			color: rgba(244, 244, 255, 0.2);
 			display: inline-block;
-			line-height: 1;
+			line-height: 1;/*1 silo*/
 			margin-left: 1em;
 			padding-left: 1em;
 		}
