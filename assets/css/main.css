@@ -520,8 +520,8 @@ input::-moz-focus-inner {
 		text-decoration: none;
 		border-bottom: none;
 		position:sticky;
-		padding:5px;  /*Padding Siloi na Aita Duita Padding er modhe durrottto 5px kore rakhbe. Github e dite hobe.*/
-		padding-left:30px ;
+		padding:-1px;  /*Padding Siloi na Aita Duita Padding er modhe durrottto 5px kore rakhbe. Github e dite hobe.*/
+		padding-left:50px ;
 	}
 
 		.icon:before {
@@ -1982,7 +1982,7 @@ input::-moz-focus-inner {
 				/*padding: 4em 3em 2em 0 ;*/
 				border-right: solid 1px rgb(241, 239, 239);  /* Contact tab e Right border line er colour*/
 				width: 50%;
-				height: 15cm;
+				height: 17cm;  /* 15 silo */
 			}
 
 			.contact > .inner > :nth-child(2n),
@@ -2079,7 +2079,7 @@ input::-moz-focus-inner {
 			#footer .copyright li:first-child {
 				border-left: 0;
 				margin-left: 0;
-				padding-left: 0;
+				padding-left: 40px;
 			}
 
 	@media screen and (max-width: 480px) {
